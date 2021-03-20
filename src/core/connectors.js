@@ -1740,6 +1740,13 @@ const connectors = [{
 	],
 	js: 'connectors/turntable.fm.js',
 	id: 'turntable.fm',
+}, {
+	label: 'AzuraCast',
+	matches: [
+		'*://tunez.tdstoragebay.com/public/*',
+	],
+	js: 'connectors/azuracast.js',
+	id: 'azuracast',
 }];
 
 define(() => connectors);
