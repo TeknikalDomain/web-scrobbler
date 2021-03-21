@@ -2,7 +2,7 @@
 
 Connector.trackArtSelector = '.now-playing-art > a > img';
 
-Connector.artistSelector = '.now-playing-details .now-playing-main > div .now-playing-artist'
+Connector.artistSelector = '.now-playing-details .now-playing-main > div .now-playing-artist';
 
 Connector.trackSelector = '.now-playing-details .now-playing-main > div .now-playing-title';
 
