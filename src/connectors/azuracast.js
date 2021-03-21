@@ -11,7 +11,7 @@ Connector.playButtonSelector = '.radio-controls .radio-control-play-button > a[t
 Connector.playerSelector = '.radio-player-widget';
 
 Connector.isTrackArtDefault = (url) => {
-	// Self-uploaded tracks could not have cover arts
+	// This can be changed by station owner to point to a different file, this is just the default.
 	return url.includes('generic_song');
 };
 
